@@ -8,6 +8,19 @@ public class Main {
 
     private static final HashMap<String,Integer> hashMap = new HashMap<>();
     public static void main (String []args){
+
+        ArrayList<String> arrayList = new ArrayList<>();
+        arrayList.add("January");
+        arrayList.add("February");
+        arrayList.add("March");
+        arrayList.add("April");
+        arrayList.add("May");
+        arrayList.add("January");
+        arrayList.add("February");
+        arrayList.remove(5);
+        arrayList.remove(5);
+        System.out.println(arrayList);
+
         PhoneBook PB = new PhoneBook();
         PB.add("Алексеев", "+7 (911) 111-11-11");
         PB.add("Богданов", "+7 (912) 222-22-22");
